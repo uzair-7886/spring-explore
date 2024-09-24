@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class DemoController {
     @RequestMapping("/test")
     public String index() {
-        return "Greetings from Spring Boot!";
+        return "Lets gooooooooooo!";
     }
 }
