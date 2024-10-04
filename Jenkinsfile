@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'Built-In Node' }
+  agent { label 'bin-node' }
   tools {
     jdk 'Java17'
     maven 'Maven3'
