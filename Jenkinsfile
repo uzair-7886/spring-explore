@@ -20,7 +20,7 @@ pipeline {
     }
     stage("Checkout from SCM"){
     steps {
-    git branch: 'main', credentials Id: 'github', url: 'https://github.com/uzair-7886/spring-explore'
+    git branch: 'main', credentialsId: 'github', url: 'https://github.com/uzair-7886/spring-explore'
     }
     }
     stage("Build"){
